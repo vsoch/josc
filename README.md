@@ -13,3 +13,9 @@ heroku create
 Creating app... done, ⬢ shielded-mountain-65855
 https://shielded-mountain-65855.herokuapp.com/ | https://git.heroku.com/shielded-mountain-65855.git
 ```
+
+3. Migrate the database to create the tables, etc.
+
+```
+heroku run rake db:migrate
+```
