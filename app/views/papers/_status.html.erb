@@ -19,10 +19,10 @@
   <% when "accepted" %>
   <p>This paper is <strong><%= paper.pretty_state %></strong> which means
     the review is completed and it has been accepted into The Journal
-    of Open Source Software. You can view the review of this paper on
+    of Open Source Containers. You can view the review of this paper on
     GitHub over <%= link_to "here &raquo;".html_safe, paper.review_url %></p>
   <% when "rejected" %>
   <p>This paper is <strong><%= paper.pretty_state %></strong> which means
-    is has not been accepted into The Journal of Open Source Software.</p>
+    is has not been accepted into The Journal of Open Source Containers.</p>
   <% end %>
 </div>
