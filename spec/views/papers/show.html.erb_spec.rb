@@ -23,7 +23,7 @@ describe 'papers/show.html.erb' do
 
       render :template => "papers/show.html.erb"
 
-      expect(rendered).to have_content "accepted into The Journal of Open Source Software"
+      expect(rendered).to have_content "accepted into The Journal of Open Source Containers"
     end
   end
 
